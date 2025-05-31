@@ -1,0 +1,18 @@
+LTspice 24.1.8 for Windows
+Circuit: C:\IIT_KGP_IC_Design\4T_pixel_Cell\4T_Pixel.net
+Start Time: Sun Jun  1 05:04:04 2025
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node n003 is floating.
+
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.333 seconds.
+
+Files loaded:
+C:\IIT_KGP_IC_Design\4T_pixel_Cell\4T_Pixel.net
+C:\Users\srija\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\srija\AppData\Local\LTspice\lib\cmp\65nm_bulk.mos
+

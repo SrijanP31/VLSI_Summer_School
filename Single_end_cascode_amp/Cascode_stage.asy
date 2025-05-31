@@ -1,0 +1,11 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -48 -63 80 1
+LINE Normal 80 1 -48 65
+LINE Normal -48 -63 -48 65
+PIN -48 0 LEFT 8
+PINATTR PinName IN
+PINATTR SpiceOrder 1
+PIN 80 0 RIGHT 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 2
