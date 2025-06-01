@@ -1,6 +1,6 @@
 LTspice 24.1.8 for Windows
 Circuit: C:\IIT_KGP_IC_Design\CTIA\CTIA.net
-Start Time: Sun Jun  1 04:31:51 2025
+Start Time: Mon Jun  2 04:34:36 2025
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -26,7 +26,10 @@ Gmin = 2.70769e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.429 seconds.
+.step v4=-0.025
+.step v4=0
+.step v4=0.025
+Total elapsed time: 0.976 seconds.
 
 Files loaded:
 C:\IIT_KGP_IC_Design\CTIA\CTIA.net
@@ -34,3 +37,9 @@ C:\Users\srija\AppData\Local\LTspice\lib\cmp\standard.mos
 C:\Users\srija\AppData\Local\LTspice\lib\cmp\65nm_bulk.mos
 C:\Users\srija\AppData\Local\LTspice\lib\sub\cascode_amp.sub
 
+
+Measurement: vout
+  step	V(vout)	at
+     1	0.0979040619703	4e-07
+     2	0.0728783828151	4e-07
+     3	0.0479770321284	4e-07
