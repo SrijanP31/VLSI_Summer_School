@@ -1,12 +1,14 @@
 LTspice 24.1.8 for Windows
-Circuit: C:\IIT_KGP_IC_Design\Cascode_OTA_2\Cascode_OTA_2.net
-Start Time: Sun Jun  8 04:01:10 2025
-Options: logopinfo
+Circuit: C:\IIT_KGP_IC_Design\Diff_amp\diff_amp.net
+Start Time: Tue Jun  3 01:57:43 2025
 solver = Normal
 Maximum thread count: 12
 tnom = 27
 temp = 27
 method = modified trap
+volttol = 1e-08
+WARNING: Node n002 is floating.
+
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -27,10 +29,10 @@ Gmin = 2.70769e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.308 seconds.
+Total elapsed time: 0.274 seconds.
 
 Files loaded:
-C:\IIT_KGP_IC_Design\Cascode_OTA_2\Cascode_OTA_2.net
+C:\IIT_KGP_IC_Design\Diff_amp\diff_amp.net
 C:\Users\srija\AppData\Local\LTspice\lib\cmp\standard.mos
 C:\Users\srija\AppData\Local\LTspice\lib\cmp\65nm_bulk.mos
 
