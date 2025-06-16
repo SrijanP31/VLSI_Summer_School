@@ -17,3 +17,5 @@ Circuits designed as part of VLSI Summer School '25, conducted by IIT KGP. All c
 3. 4T Active Pixel Sensor(APS)
 4. Single-ended Cascode Amplifier with wide-swing current mirror biasing.
 5. Current Transimpedance Amplifer(CTIA)
+6. Differential Amplifiers (with resistive and active current mirror load)
+7. Folded Cascode Differential Amplifier with Common Mode Feedback
